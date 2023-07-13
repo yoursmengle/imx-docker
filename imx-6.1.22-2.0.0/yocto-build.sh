@@ -4,7 +4,7 @@
 # source the common variables
 
 . imx-6.1.22-2.0.0/env.sh
-
+cat  imx-6.1.22-2.0.0/env.sh
 #
 
 mkdir -p ${YOCTO_DIR}
@@ -22,6 +22,8 @@ repo sync -j`nproc`
 # source the yocto env
 
 EULA=1 MACHINE="${MACHINE}" DISTRO="${DISTRO}" source imx-setup-release.sh -b build_${DISTRO}
+
+echo "MACHINE=${MACHINE}"
 
 # Build
 

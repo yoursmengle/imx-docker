@@ -13,7 +13,7 @@ IMX_RELEASE="imx-6.1.22-2.0.0"
 
 YOCTO_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
-MACHINE="imx8mpevk"
+MACHINE="imx93-11x11-lpddr4x-evk"
 DISTRO="fsl-imx-xwayland"
 IMAGES="imx-image-core"
 
