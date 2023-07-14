@@ -15,7 +15,7 @@ YOCTO_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
 MACHINE="imx93-11x11-lpddr4x-evk"
 DISTRO="fsl-imx-xwayland"
-IMAGES="imx-image-core"
+IMAGES="imx-image-full"
 
 REMOTE="https://github.com/nxp-imx/imx-manifest"
 BRANCH="imx-linux-mickledore"
