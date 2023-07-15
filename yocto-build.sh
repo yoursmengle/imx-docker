@@ -1,0 +1,1 @@
+imx-6.1.22-2.0.0/yocto-build.sh
