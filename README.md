@@ -13,6 +13,7 @@
 - 在 windows 中运行 docker desktop
 - 在 wsl2 中运行 cd imx-docker; ./auto_build.sh
 - 等待编译完成。根据计算机速度和网络状况，初次编译可能需要10小时以上
+- 编译完成后，建议保留 /opt/yocto/ 下面的 downloads 和 sstate-cache 两个目录，已加快下次编译
 
 ## 刷机
 
