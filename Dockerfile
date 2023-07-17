@@ -19,12 +19,11 @@ ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
 # Set download directory for all build
-ENV BB_ENV_PASSTHROUGH_ADDITIONS "DL_DIR SSTATE_DIR PARALLEL_MAKE BB_NUMBER_THREADS TMPDIR"
+ENV BB_ENV_PASSTHROUGH_ADDITIONS "DL_DIR SSTATE_DIR PARALLEL_MAKE BB_NUMBER_THREADS"
 ENV DL_DIR /opt/yocto/downloads
 ENV SSTATE_DIR /opt/yocto/sstate-cache
-ENV PARALLEL_MAKE -j1
+ENV PARALLEL_MAKE -j4
 ENV BB_NUMBER_THREADS 8
-ENV TMPDIR /opt/yocto/tmp
 # set processors to 10 in %UserProfile%/.wslconfig
 
 # Yocto needs 'source' command for setting up the build environment, so replace
